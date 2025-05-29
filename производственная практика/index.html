@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyticum+</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+<!---->
+<!--Шапка-->
+<header>
+    <div class="header">
+        <!--Логотип и навигация-->
+        <div class="logo-and-nav">
+            <!--Логотип-->
+            <div class="logo"><img src="image/logo.svg" alt=""></div>
+
+            <!--Навигация-->
+            <div class="nav">
+                <div><p><a href="#first-block">Знакомство</a></p></div>
+                <div><p><a href="#second-block">Максимум</a></p></div>
+                <div><p><a href="#answers-and-questions">Вопрос/Ответ</a></p></div>
+                <div><p><a href="#contacts">Контакты</a></p></div>
+            </div>
+        </div>
+
+        <!--Номер и кнопка консультация-->
+        <div class="number-and-button">
+            <!--Номер и почта-->
+            <div class="number-and-email">
+                <!--Номер-->
+                <div class="number">
+                    <b>8 (3519) 393-123</b>
+                </div>
+
+                <!--Почта-->
+                <div class="email">info@analyticum.pro</div>
+            </div>
+
+            <!--Кнопка консультация-->
+            <div><button class="button-consultation" data-fancybox data-src="#consultation-modal">Консультация</button></div>
+        </div>
+        <!--Бургер-->
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Мобильное меню -->
+        <nav class="mobile-menu">
+            <div class="mobile-menu-content">
+                <!-- Здесь можно дублировать навигацию или любое содержимое -->
+                <div class="mobile-nav">
+                    <a href="#first-block">Знакомство</a>
+                    <a href="#second-block">Максимум</a>
+                    <a href="#answers-and-questions">Вопрос/Ответ</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+                <div class="mobile-contact-info">
+                    <button class="button-consultation" data-fancybox data-src="#consultation-modal">Консультация</button>
+                    <div class="image-modal">
+                        <img src="image/media-vk.svg" alt="">
+                        <img src="image/media-youtube.svg" alt="">
+                        <img src="image/media-tg.svg" alt="">
+                    </div>
+                    <div class="mobile-number-and-email">
+                        <div class="mobile-number">8 (3519) 393-123</div>
+                        <div class="mobile-email">info@analyticum.pro</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!--Лэндинг-->
+    <div class="landing">
+        <!--Текст-->
+        <div class="landing-text">
+            <div class="big-text">Приветствую <br>на <b>тестовом</b> <br>задании</div>
+            <div class="min-text">Приглашаю тебя пройти тестовое задание <br>и в дальнейшем присоединиться к нашей команде</div>
+        </div>
+
+        <!--Картинка-->
+        <div class="image-landing"><img src="image/кот%20баг.svg" alt=""></div>
+    </div>
+
+    <!--Большой блок о нас-->
+    <div class="about-us">
+        <!--Первый блок-->
+        <div class="first-block" id="first-block">
+            <!--Текст слева-->
+            <div class="left-text">
+                <div class="big-left-text">
+                    IT-КОМПАНИЯ <br>С БОЛЬШИМ <br><b>СПЕКТРОМ</b> УСЛУГ
+                </div>
+                <div class="medium-and-min-left-text">
+                    <div class="medium-left-text">Давай <br>знакомиться</div>
+                    <div class="min-left-text">
+                        Аналитикум плюс с 2016 года помогает малому и среднему бизнесу использовать все возможности цифровых технологий в решении ежедневных  и стратегических задач.
+                        <br><br>В нашей компетенции техническое сопровождение бизнеса - <br>IT-аутсорсинг и автоматизация бизнес-процессов с помощью <br>WEB-разработки.
+                    </div>
+                </div>
+            </div>
+
+            <!--Текст справа-->
+            <div class="right-text">
+                <div class="big-right-text">it's <b>not</b> magic</div>
+                <div class="min-right-text">it's <b>technologY</b> for your business</div>
+            </div>
+        </div>
+
+        <!--Второй блок-->
+        <div class="second-block" id="second-block">
+            <div class="content-with-second-block">
+                <!--Текст-->
+                <div class="heading-with-second-block">ПОЛУЧАЙ <b>максимум,</b> <br>РАБОТАЯ С НАМИ</div>
+
+                <!--Карточки-->
+                <div class="cards-with-second-block">
+                    <!--Первая карточка-->
+                    <div class="card-with-second-block">
+                        <div><img src="image/card-with-second-block-one.svg" alt=""></div>
+                        <div class="heading-card-with-second-block">Нормированный рабочий день</div>
+                        <div class="text-card-with-second-block">Мы работаем с 9:00 до 18:00, выполняем задачи в срок, а на выходных отдыхаем и набираемся сил для новых проектов</div>
+                    </div>
+
+                    <!--Вторая-->
+                    <div class="card-with-second-block">
+                        <div><img src="image/card-with-second-block-two.svg" alt=""></div>
+                        <div class="heading-card-with-second-block">Дружелюбная обстановка</div>
+                        <div class="text-card-with-second-block">Настольные игры в перерывах, совместные корпоративы с выездом за город, квесты и тесты про то, кто какой хлебушек - все это ждет тебя в нашей команде котиков</div>
+                    </div>
+
+                    <!--Третья-->
+                    <div class="card-with-second-block">
+                        <div><img src="image/card-with-second-block-three.svg" alt=""></div>
+                        <div class="heading-card-with-second-block">Активное времяпрепровождение</div>
+                        <div class="text-card-with-second-block">Мы играем в теннис и бильярд, катаемся на плюшках, ходим в горы, плаваем в озерах и готовы на любые активности. Предлагай!</div>
+                    </div>
+
+                    <!--Четвертая-->
+                    <div class="card-with-second-block">
+                        <div><img src="image/card-with-second-block-four.svg" alt=""></div>
+                        <div class="heading-card-with-second-block">Постоянное развитие</div>
+                        <div class="text-card-with-second-block">Интересные проекты и работа в команде дают прекрасные возможности для развития профессиональных навыков, так что мы не стоим на месте</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Третий блок-->
+        <div class="third-block">
+            <!--Навигация-->
+            <div class="nav-with-slider" id="nav-slider">
+                <div class="nav-block one">
+                    <div class="nav-block text">Верстка</div>
+                </div>
+                <div class="nav-block two">
+                    <div class="nav-block text">JS/JQ</div>
+                </div>
+                <div class="nav-block three">
+                    <div class="nav-block text">Vue</div>
+                </div>
+                <div class="nav-block four">
+                    <div class="nav-block text">Doker</div>
+                </div>
+                <div class="nav-block five">
+                    <div class="nav-block text">Bitrix</div>
+                </div>
+                <div class="nav-block six">
+                    <div class="nav-block text">Winter</div>
+                </div>
+            </div>
+
+            <!-- Кнопки-стрелочки -->
+            <div class="strelochki">
+                <div class="arrow-btn left-arrow">
+                    <svg width="16.5" height="11" viewBox="0 0 16.5 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 5.5L15.5 5.5" stroke="rgba(209, 198, 221, 1)" stroke-width="1"/>
+                        <path d="M6 1L1 5.5L6 10" stroke="rgba(209, 198, 221, 1)" stroke-width="1"/>
+                    </svg>
+                </div>
+                <div class="arrow-btn right-arrow">
+                    <svg width="16.5" height="11" viewBox="0 0 16.5 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.5 5.5L1 5.5" stroke="rgba(209, 198, 221, 1)" stroke-width="1"/>
+                        <path d="M10.5 1L15.5 5.5L10.5 10" stroke="rgba(209, 198, 221, 1)" stroke-width="1"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!--Слайдеры-->
+            <!--Первый слайдер-->
+            <div class="slider-for-third-block one" id="slider-one">
+                <div class="slider-image"><img src="image/slider-one.svg" alt=""></div>
+                <div class="slider-text">
+                    <div class="in-slider-text">
+                        <div class="heading-with-slider-text">Верстка</div>
+                        <div class="content-with-slider-text">Для верстки используем стандартный html5. А вот стили пишем на css3, sass и less.
+                            <br>Все новые проекты на October и October2 пишем на sass.
+                            <br>Но есть сайты, что у нас на поддержке и они стилизованы либо less, либо css, или даже все вместе.
+                            <br><br>Так что желательно знать препроцессоры хотя бы поверхностно, плюсом будет если умеете писать миксины, функции. Еще мы используем методологию БЭМ, но только для формирование имен блоков, элементов и модификаторов.
+                            <br><br>В нашем коллективе есть много нюансов и договоренностей по работе с версткой. И всему этому мы сможем вас обучить!</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Второй-->
+            <div class="slider-for-third-block two" id="slider-two">
+                <div class="slider-image"><img src="image/slider-two.svg" alt=""></div>
+                <div class="slider-text">
+                    <div class="in-slider-text">
+                        <div class="heading-with-slider-text">JavaScript</div>
+                        <div class="content-with-slider-text">(JS) играет важную роль в работе ИТ-компаний и является одним из основных языков программирования в современной индустрии.
+                            <br><br>Популярный язык программирования, который используется для создания интерактивных веб-сайтов и веб-приложений. Он был разработан компанией Netscape в 1995 году и стал одним из основных инструментов для разработки веб-контента.
+                            <br><br>JS используется для добавления интерактивности на веб-страницы, таких как анимации, всплывающие окна, валидация форм и многое другое.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Третий-->
+            <div class="slider-for-third-block three" id="slider-three">
+                <div class="slider-image"><img src="image/slider-three.svg" alt=""></div>
+                <div class="slider-text">
+                    <div class="in-slider-text">
+                        <div class="heading-with-slider-text">Vue.js</div>
+                        <div class="content-with-slider-text">Прогрессивный фреймворк для создания пользовательских интерфейсов.
+                            <br>Он позволяет быстро создавать интерактивные веб-приложения с использованием компонентов и директив.
+                            <br>Фреймворк Vue.js был создан Эваном Ю (Evan You) и его командой в 2014 году.
+                            <br><br>Vue.js имеет ряд преимуществ перед другими фреймворками, такими как Angular и React. Во-первых, Vue.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Четвертый-->
+            <div class="slider-for-third-block four" id="slider-four">
+                <div class="slider-image"><img src="image/slider-four.svg" alt=""></div>
+                <div class="slider-text">
+                    <div class="in-slider-text">
+                        <div class="heading-with-slider-text">Docker</div>
+                        <div class="content-with-slider-text">Платформа для автоматизации развертывания, тестирования и доставки приложений в контейнерах. Она позволяет создавать и запускать приложения в изолированной среде, которая не зависит от операционной системы хоста.
+                            <br><br>Docker был создан компанией Docker, Inc. в 2013 году.
+                            <br><br>Docker используется для упрощения процесса разработки, тестирования и развертывания приложений.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Пятый-->
+            <div class="slider-for-third-block five" id="slider-five">
+                <div class="slider-image"><img src="image/slider-five.svg" alt=""></div>
+                <div class="slider-text">
+                    <div class="in-slider-text">
+                        <div class="heading-with-slider-text">Bitrix</div>
+                        <div class="content-with-slider-text">Куда же мы без Битрикс? На фоне импортозамещения в России, эта платформа обретает все большую популярность, а значит мы не можем обойти ее стороной.
+                            <br><br>Bitrix позволяет создавать сайты различных типов, включая корпоративные, информационные, интернет-магазины и другие.
+                            <br><br>Система имеет широкий функционал, включая управление контентом, SEO, маркетинг, e-commerce и многое другое. Bitrix является одной из самых популярных CMS в России и странах СНГ.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Шестой-->
+            <div class="slider-for-third-block six" id="slider-six">
+                <!--Картинка-->
+                <div class="slider-image"><img src="image/slider-six.svg" alt=""></div>
+                <div class="slider-text">
+                    <div class="in-slider-text">
+                        <div class="heading-with-slider-text">Winter</div>
+                        <div class="content-with-slider-text">На данный момент большинство новых сайтов для клиентов мы предлагаем на CMS Winter.
+                            <br><br>Winter - это мощная и гибкая система управления контентом (CMS). <br>Он построен с использованием фреймворка Laravel PHP и имеет современный, удобный интерфейс. Winter поддерживает широкий спектр функций, включая управление пользователями, создание контента и SEO-оптимизацию. Winter также легко настраивается, так что вы можете адаптировать его в соответствии с вашими конкретными потребностями.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Четвертый блок-->
+        <div class="fourth-block" id="answers-and-questions">
+            <!--Заголовок-->
+            <div class="heading-with-fourth-block">
+                Задавай умные вопросы<br>Получай умные ответы
+            </div>
+            <!--Вопросы и ответы-->
+            <div class="questions-and-answers">
+                <!--Первый-->
+                <div class="question one">
+                    <div class="block-question">
+                        <!--Вопрос-->
+                        <div class="question-text">Что в вашей компании необычного?</div>
+                        <div class="plus-or-minus">
+                            <img src="image/plus.svg" alt="" class="plus">
+                            <img src="image/minus.svg" alt="" class="minus">
+                        </div>
+                    </div>
+
+                    <!--Ответ-->
+                    <div class="answer one">У нас есть свои маскоты. Крутые талисманы для каждого направления работы: совуха CRIMP у админов, кот BUG у разработчиков и ворон WIZER-эксперт в IT-консалтинге</div>
+                </div>
+
+                <!--Второй-->
+                <div class="question two">
+                    <div class="block-question">
+                        <!--Вопрос-->
+                        <div class="question-text">Как вы относитесь к удаленной работе?</div>
+                        <div class="plus-or-minus">
+                            <img src="image/plus.svg" alt="" class="plus">
+                            <img src="image/minus.svg" alt="" class="minus">
+                        </div>
+                    </div>
+
+                    <!--Ответ-->
+                    <div class="answer two">У нас есть 3 офиса: в Магнитогорске, Челябинске и Санкт-Петербурге. Те сотрудники, что работают в этих городах, располагаются в уютных офисах. Однако, у нас есть коллеги, работающие из дома в других городах, например, в Хабаровске. Мы находим подходящий график работы для всех.</div>
+                </div>
+
+                <!--Третий-->
+                <div class="question three">
+                    <div class="block-question">
+                        <!--Вопрос-->
+                        <div class="question-text">У меня есть друзья/родственники/знакомые, которым требуются услуги IT-компании. Я получу что-то за рекомендацию?</div>
+                        <div class="plus-or-minus">
+                            <img src="image/plus.svg" alt="" class="plus">
+                            <img src="image/minus.svg" alt="" class="minus">
+                        </div>
+                    </div>
+
+                    <!--Ответ-->
+                    <div class="answer three">А как же! Если это аутсорсинг, то тебе достанется оплата этой компании за первый месяц. Если это WEB-проект, то ты получишь процент. Так что приводи всех!</div>
+                </div>
+
+                <!--Четвертый-->
+                <div class="question four">
+                    <div class="block-question">
+                        <!--Вопрос-->
+                        <div class="question-text">Какие стратегические планы у вашей компании?</div>
+                        <div class="plus-or-minus">
+                            <img src="image/plus.svg" alt="" class="plus">
+                            <img src="image/minus.svg" alt="" class="minus">
+                        </div>
+                    </div>
+
+                    <!--Ответ-->
+                    <div class="answer three">Глобальные и далеко идущие! Да, мы делаем сайты, но наибольший интерес представляет разработка ПО. Мы делаем ERP и MES-системы, ПО для транспорта и логистики. Мы разрабатываем свой коробочный продукт, который и планируем продвигать в будущем!</div>
+                </div>
+            </div>
+        </div>
+
+        <!--Блок про ИИ-->
+        <div class="block-about-ai">
+            <!--Заголовок-->
+            <div class="heading-with-block-about-ai">Иногда мы работаем с ИИ <br>Вот как он нас <b>представляет</b></div>
+
+            <div class="slider-swiper-box">
+                <!-- Контейнер Swiper -->
+                <div class="swiper-container">
+                    <!-- Обертка слайдов -->
+                    <div class="swiper-wrapper">
+                        <!-- Слайд 1 -->
+                        <div class="swiper-slide">
+                            <div class="slider-inner-container">
+                                <div class="slider-image-in-block-about-ai one">
+                                    <img src="image/for-second-slider-one.svg" alt="" width="750" height="576">
+                                </div>
+                                <div class="slider-image-in-block-about-ai two">
+                                    <img src="image/for-second-slider-two.svg" alt="" width="750" height="576">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Слайд 2 -->
+                        <div class="swiper-slide">
+                            <div class="slider-inner-container">
+                                <div class="slider-image-in-block-about-ai one">
+                                    <img src="image/for-second-slider-three.svg" alt="" width="750" height="576">
+                                </div>
+                                <div class="slider-image-in-block-about-ai two">
+                                    <img src="image/for-second-slider-four.svg" alt="" width="750" height="576">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Слайд 3 -->
+                        <div class="swiper-slide">
+                            <div class="slider-inner-container">
+                                <div class="slider-image-in-block-about-ai one">
+                                    <img src="image/for-second-slider-five.svg" alt="" width="750" height="576">
+                                </div>
+                                <div class="slider-image-in-block-about-ai two">
+                                    <img src="image/for-second-slider-six.svg" alt="" width="750" height="576">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Слайд 4 -->
+                        <div class="swiper-slide">
+                            <div class="slider-inner-container">
+                                <div class="slider-image-in-block-about-ai one">
+                                    <img src="image/for-second-slider-seven.svg" alt="" width="750" height="576">
+                                </div>
+                                <div class="slider-image-in-block-about-ai two">
+                                    <img src="image/for-second-slider-eight.svg" alt="" width="750" height="576">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Пагинация -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Блок с картой-->
+        <div class="block-with-the-map" id="contacts">
+            <div class="heading-with-the-map">Контакты</div>
+            <div class="map-block">
+                <div class="map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3b0325da25c6337a1fae5cd147cddd2a1178ef58138a44ce921f4e94a2ae8753&amp;source=constructor" width="1006" height="578" frameborder="0"></iframe>
+                </div>
+                <div class="address">
+                    <div class="heading-address">
+                        Адреса:
+                    </div>
+                    <div class="blocks-address-and-phone">
+                        <div class="block-address-and-phone">
+                            <div class="address-in-block">
+                                <div><img src="image/map.svg" alt=""></div>
+                                <div class="text-in-address">г. Челябинск, ул. Доватора, 9 оф.27</div>
+                            </div>
+                            <div class="phone-in-block">
+                                <div><img src="image/phone.svg" alt=""></div>
+                                <div class="text-in-phone">8 (351) 225 62 41</div>
+                            </div>
+                        </div>
+
+                        <div class="block-address-and-phone">
+                            <div class="address-in-block">
+                                <div><img src="image/map.svg" alt=""></div>
+                                <div class="text-in-address">г. Магнитогорск, ул. Строителей, 26</div>
+                            </div>
+                            <div class="phone-in-block">
+                                <div><img src="image/phone.svg" alt=""></div>
+                                <div class="text-in-phone">8 (3519) 393-123</div>
+                            </div>
+                        </div>
+
+                        <div class="block-address-and-phone">
+                            <div class="address-in-block">
+                                <div><img src="image/map.svg" alt=""></div>
+                                <div class="text-in-address">Санкт-Петербург</div>
+                            </div>
+                            <div class="phone-in-block">
+                                <div><img src="image/phone.svg" alt=""></div>
+                                <div class="text-in-phone">+7 812 507-98-17</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Блок про сотрудничество-->
+        <div class="cooperation-block">
+            <div class="heading-with-cooperation-block">обсудим <br><b>сотрудничество</b></div>
+
+            <div class="form-with-cooperation">
+                <form action="">
+                    <div class="text-cooperation">Узнать больше подробностей вы можете у наших специалистов, заказав консультацию.</div>
+                    <div class="inputs-for-cooperation-block">
+                        <div class="inputs">
+                            <div class="left-inputs">
+                                <input type="text" placeholder="Ваше имя*" required>
+                                <input type="text" placeholder="+7 ***-***-** **" required>
+                                <input type="text" placeholder="E-mail" required>
+                            </div>
+                            <div class="right-input">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Комментарий" required></textarea>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <div><input type="checkbox" checked></div>
+                            <div class="checkbox-text">Пользуясь сайтом или отправляя любые формы запросов, Вы соглашаетесь
+                                <br>с условиями <b>«Положения о конфиденциальности»</b></div>
+                        </div>
+                    </div>
+                    <div class="cooperation-button"><button>Отправить</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!--Подвал-->
+<footer>
+    <div class="nav-in-footer">
+        <div><p><a href="#first-block">Знакомство</a></p></div>
+        <div><p><a href="#second-block">Максимум</a></p></div>
+        <div><p><a href="#answers-and-questions">Вопрос/Ответ</a></p></div>
+        <div><p><a href="#contacts">Контакты</a></p></div>
+    </div>
+
+    <div class="contacts-in-footer">
+        <div class="block-address-and-phone-in-footer">
+            <div class="address-in-block-in-footer">
+                <div><img src="image/map-white.svg" alt=""></div>
+                <div class="text-in-address-in-footer">г. Челябинск, ул. Доватора, 9 оф.27</div>
+            </div>
+            <div class="phone-in-block-in-footer">
+                <div><img src="image/phone-white.svg" alt=""></div>
+                <div class="text-in-phone-in-footer">8 (351) 225 62 41</div>
+            </div>
+        </div>
+
+        <div class="block-address-and-phone-in-footer">
+            <div class="address-in-block-in-footer">
+                <div><img src="image/map-white.svg" alt=""></div>
+                <div class="text-in-address-in-footer">г. Магнитогорск, ул. Строителей, 26</div>
+            </div>
+            <div class="phone-in-block-in-footer">
+                <div><img src="image/phone-white.svg" alt=""></div>
+                <div class="text-in-phone-in-footer">8 (3519) 393-123</div>
+            </div>
+        </div>
+
+        <div class="block-address-and-phone-in-footer">
+            <div class="address-in-block-in-footer">
+                <div><img src="image/map-white.svg" alt=""></div>
+                <div class="text-in-address-in-footer">Санкт-Петербург</div>
+            </div>
+            <div class="phone-in-block-in-footer">
+                <div><img src="image/phone-white.svg" alt=""></div>
+                <div class="text-in-phone-in-footer">+7 812 507-98-17</div>
+            </div>
+        </div>
+
+        <div class="vk-tg-yt-itd">
+            <div class="image-in-footer">
+                <img src="image/vk.svg" alt="">
+                <img src="image/youtube.svg" alt="">
+                <img src="image/telegram.svg" alt="">
+            </div>
+            <div class="text-in-footer">
+                <div class="polytica-in-footer">Политика конфиденциальности</div>
+                <div class="analyticum">ООО «AnalyticumPlus» © 2022</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Модалка-->
+<div style="display: none;">
+    <!-- Модалка формы -->
+    <div id="consultation-modal" class="modal">
+        <div class="modal__content">
+            <!-- Крестик для закрытия (добавлен data-fancybox-close) -->
+            <img src="image/for-modal-krestic.svg" alt="Закрыть" class="modal__close" data-fancybox-close>
+
+            <div class="text-modal">
+                <div class="modal__heading">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
+                <div class="modal__subheading">Заполните форму обратной связи</div>
+            </div>
+
+            <form class="modal__form">
+                <input type="text" class="modal__input" placeholder="Ваше имя*" required>
+
+                <!-- Поле с маской для телефона -->
+                <input type="tel" class="modal__input phone-mask" placeholder="+7 (___) ___-__-__" required>
+
+                <textarea class="modal__textarea" placeholder="Комментарий"></textarea>
+
+                <div class="modal__checkbox">
+                    <input type="checkbox" id="privacy-check" checked required>
+                    <label for="privacy-check">
+                        Пользуясь сайтом или отправляя любые формы запросов, Вы соглашаетесь с условиями <b>«Положения о конфиденциальности»</b>
+                    </label>
+                </div>
+
+                <button type="submit" class="modal__submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Модалка успеха -->
+    <div id="success-modal" class="modal modal--success">
+            ВАША ЗАЯВКА <br>ОТПРАВЛЕНА
+    </div>
+</div>
+
+<script src="js/for-nav-third-block.js"></script>
+<script src="js/burger.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/for-cooperation-block.js"></script>
+<script src="js/for-block-ai.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/for-slider-with-third-block.js"></script>
+<script src="js/for-block-questions-and-answers.js"></script>
+<script src="js/for-footer.js"></script>
+</body>
+</html>
